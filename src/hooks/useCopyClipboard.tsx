@@ -11,8 +11,8 @@ const useCopyClipboard = (value: string) => {
   }, [value]);
 
   return {
-    valueRef,
     copyFunc,
+    valueRef,
   };
 };
 export default useCopyClipboard;

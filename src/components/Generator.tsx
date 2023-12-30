@@ -8,7 +8,7 @@ const Generator = () => {
   const [isCharacter, setIsCharacter] = useState(false);
   const [password, setPassword] = useState("");
 
-  const { valueRef, copyFunc } = useCopyClipboard(password);
+  const { copyFunc, valueRef } = useCopyClipboard(password);
 
   const generatePassword = useCallback(() => {
     let pass = "";
