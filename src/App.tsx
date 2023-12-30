@@ -1,13 +1,11 @@
-
-
+import Generator from "./components/Generator";
 
 function App() {
-
   return (
-    <div>
-      <p>Hello</p>
-    </div>
-  )
+    <>
+      <Generator />
+    </>
+  );
 }
 
-export default App
+export default App;
